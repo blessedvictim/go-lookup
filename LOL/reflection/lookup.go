@@ -1,14 +1,11 @@
-/*
-Small library on top of reflect for make lookups to Structs or Maps. Using a
-very simple DSL you can access to any property, key or value of any value of Go.
-*/
-package lookup
+package reflection
 
 import (
-	"errors"
 	"reflect"
 	"strconv"
 	"strings"
+
+	"github.com/pkg/errors"
 )
 
 const (

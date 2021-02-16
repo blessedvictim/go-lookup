@@ -1,6 +1,14 @@
 go-lookup [![Build Status](https://img.shields.io/github/workflow/status/mcuadros/go-lookup/Test.svg)](https://github.com/mcuadros/go-lookup/actions) [![GoDoc](http://godoc.org/github.com/mcuadros/go-lookup?status.png)](https://pkg.go.dev/github.com/mcuadros/go-lookup)
 ==============================
 
+### TODO
+
+- Lookup paths for all non-nil nested fields
+- Lookup into map from slice of paths
+- Lookup into struct(with tag) by path
+
+## start
+
 Small library on top of reflect for make lookups to Structs or Maps. Using a very simple DSL you can access to any property, key or value of any value of Go.
 
 Installation
